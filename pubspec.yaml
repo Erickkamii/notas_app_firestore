@@ -1,0 +1,25 @@
+name: notas_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl:
+  cloud_firestore: ^4.13.3
+  firebase_core: ^2.24.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  provider: 
+  uuid:
+  http:
+
+flutter:
+  uses-material-design: true
